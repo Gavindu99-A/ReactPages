@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    color: white;
+    background:purple;
+    padding: 0 1rem;
+}
+
+.navigationButtonContainer > .navigationButton{
+    padding: 10px;
+    background: white;
+    font-size: 20px;
+    color:black;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+
